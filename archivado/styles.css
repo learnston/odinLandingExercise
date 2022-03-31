@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.features-section,
+.dark-text {
+  color: black;
+}
+
+.hero-section {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1f2937;
+  justify-content: center;
+  max-height: 30vh;
+  color: white;
+}
+
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.features-section > p {
+  flex: 1 0 100%;
+}
+
+.quotes-section {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.call-window {
+  background-color: #3882f6;
+}
+
+button {
+  background-color: #3882f6;
+}
