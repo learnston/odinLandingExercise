@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
+}
+
+.section {
+  background-color: #fff;
+  border: 5px solid rgb(29, 139, 128);
+}
+
+.hero-section {
+  flex: 1;
+}
+
+.feature-section {
+  flex: 1;
+}
+
+.quote-section {
+  flex: 1;
+}
+
+.action-section {
+  flex: 1;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
