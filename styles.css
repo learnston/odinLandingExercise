@@ -1,31 +1,42 @@
 body {
   margin: 0;
+  font-size: 1.5em;
 }
 .wrapper {
   display: flex;
   flex-flow: column wrap;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
+/* ayudas visuales para maquetar, luego reestilar/borrar */
 .section {
   background-color: #fff;
   border: 5px solid rgb(29, 139, 128);
+  min-height: 20vh;
+}
+
+.placeholder {
+  height: 200;
+  width: 500;
 }
 
 .hero-section {
-  flex: 1;
+  flex: 1 0;
+  padding: 20px 300px 50px;
+  background-color: #1f2937;
+  color: #f9fafb;
 }
 
 .feature-section {
-  flex: 1;
+  flex: 1 0;
 }
 
 .quote-section {
-  flex: 1;
+  flex: 1 0;
 }
 
 .action-section {
-  flex: 1;
+  flex: 1 0;
 }
 
 .footer-section {
@@ -33,4 +44,59 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #f9fafb;
+  /* segun el caso: */
+  /* color: white; */
+}
+
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1 0 0;
+  max-width: 500px;
+}
+
+.left > h1 {
+  font-size: 3em;
+}
+
+.right {
+  flex: 1 0 0;
+  max-width: 500px;
+  background: gray;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.6em 2em;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 8px;
 }
